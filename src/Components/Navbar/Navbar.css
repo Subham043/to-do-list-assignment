@@ -1,0 +1,32 @@
+.nav__outer__div{
+    width: 100%;
+    background-color:white;
+    box-shadow: 1px 3px 12px 1px #a233ff30;
+}
+.nav__outer__div .nav__inner__div{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__outer__div .nav__inner__div .nav__inner__logo__div img{
+    max-width: 50px;
+}
+
+.nav__outer__div .nav__inner__div .nav__inner__button__div button{
+    padding:5px 10px;
+    background-color:transparent;
+    color:#a233ff;
+    outline:none !important;
+    border:1px solid #a233ff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav__outer__div .nav__inner__div .nav__inner__button__div button:hover{
+    background-color:#a233ff;
+    color: white;
+    box-shadow: 2px 6px 15px 6px #ccc;
+}

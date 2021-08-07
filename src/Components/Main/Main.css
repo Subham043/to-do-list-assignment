@@ -1,0 +1,170 @@
+.main__outer__div .task__form__div{
+    margin-top: 100px;
+}
+.main__outer__div .task__form__div form{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    border-radius:5px;
+    box-shadow: 1px 11px 27px 1px #ccc;
+}
+
+.main__outer__div .task__form__div form .task__input__div{
+    flex: 0 0 auto;
+    width: 80%;
+}
+
+.main__outer__div .task__form__div form .task__input__div input{
+    width: 100%;
+    padding:5px 10px;
+    border: none !important;
+    outline: none !important;
+}
+
+.main__outer__div .task__form__div form .task__button__div{
+    flex: 0 0 auto;
+    width: 20%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main__outer__div .task__form__div form .task__button__div button{
+    margin-left: 15px;
+    padding:5px 10px;
+    background-color:transparent;
+    color:#a233ff;
+    outline:none !important;
+    border:1px solid #a233ff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main__outer__div .task__form__div form .task__button__div button:hover{
+    background-color:#a233ff;
+    color: white;
+}
+
+.main__outer__div .task__form__div form .task__button__div button.task__timer__btn{
+    border: none !important;
+    font-size:25px;
+    padding:0;
+    line-height:0;
+}
+
+.main__outer__div .task__form__div form .task__button__div button.task__timer__btn:hover{
+    background-color:transparent;
+    color:#a233ff;
+}
+
+.modal-dialog {
+    max-width: 300px !important;
+}
+
+.modal-body input{
+    width: 100%;
+    outline:none;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+.main__outer__div .task__status__div{
+    width: 100%;
+    margin-top:50px;
+}
+
+.main__outer__div .task__status__div .task__assigned__div__heading{
+    text-align: center;
+    background-color: #ffbe33;
+    color:white;
+    padding:10px 15px;
+}
+
+
+.main__outer__div .task__status__div .task__progress__div__heading{
+    text-align: center;
+    background-color: #002bd4;
+    color:white;
+    padding:10px 15px;
+}
+
+.main__outer__div .task__status__div .task__completed__div__heading{
+    text-align: center;
+    background-color: #07bf0f;
+    color:white;
+    padding:10px 15px;
+}
+
+.main__outer__div .task__status__div .task__completed__card__outer__div, .main__outer__div .task__status__div .task__progress__card__outer__div, .main__outer__div .task__status__div .task__assigned__card__outer__div{
+    padding:10px 15px;
+}
+
+.main__outer__div .task__status__div .task__assigned__card__outer__div .task__assigned__card{
+    border:1px solid #ffbe33;
+    background-color:white;
+    border-radius: 5px;
+    padding:10px 15px;
+    color:#ffbe33;
+    font-size:20px;
+}
+
+.main__outer__div .task__status__div .task__progress__card__outer__div .task__progress__card{
+    border:1px solid #002bd4;
+    background-color:white;
+    border-radius: 5px;
+    padding:10px 15px;
+    color:#002bd4;
+    font-size:20px;
+}
+
+.main__outer__div .task__status__div .task__completed__card__outer__div .task__completed__card{
+    border:1px solid #07bf0f;
+    background-color:white;
+    border-radius: 5px;
+    padding:10px 15px;
+    color:#07bf0f;
+    font-size:20px;
+}
+
+.main__outer__div .task__status__div .task__completed__card__outer__div .task__completed__card p path{
+    stroke: #07bf0f;
+}
+
+.main__outer__div .task__status__div .task__assigned__card__outer__div .task__assigned__card .task__delete__btn button{
+    font-size: 16px;
+    background-color: #ffbe33;
+    color:white;
+    padding:5px 10px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main__outer__div .task__status__div .task__progress__card__outer__div .task__progress__card .task__delete__btn button{
+    font-size: 16px;
+    background-color: #002bd4;
+    color:white;
+    padding:5px 10px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main__outer__div .task__status__div .task__completed__card__outer__div .task__completed__card .task__delete__btn button{
+    font-size: 16px;
+    background-color: #07bf0f;
+    color:white;
+    padding:5px 10px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main__outer__div .task__status__div .task__assigned__card__outer__div .task__assigned__card .task__delete__btn button:hover, .main__outer__div .task__status__div .task__progress__card__outer__div .task__progress__card .task__delete__btn button:hover, .main__outer__div .task__status__div .task__completed__card__outer__div .task__completed__card .task__delete__btn button:hover{
+    box-shadow: 1px 3px 10px -4px #000;
+}
